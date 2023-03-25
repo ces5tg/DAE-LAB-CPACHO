@@ -11,11 +11,11 @@ def detalle(request ):
 
 
 def resultados(request, pregunta_id):
-    response = "Estas viendo los resultado de la pregunta %s."
+    response = "Estas viendo los rasdfasdfasdfesultado de la pregunta %s."
     return HttpResponse(response % pregunta_id)
 
 def votar(request, pregunta_id):
-    return HttpResponse("Estas votando por la pregunta %s." % pregunta_id)
+    return HttpResponse("Estas votasdfasdfasdfasdfasdfando por la pregunta %s." % pregunta_id)
 
 
 def hola(request):
